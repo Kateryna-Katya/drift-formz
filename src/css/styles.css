@@ -560,7 +560,7 @@ ul {
 
 .pages h1 {
     font-family: var(--font-heading);
-    font-size: 4rem;
+    font-size: 1.6rem;
     text-transform: uppercase;
     margin-bottom: 50px;
     color: var(--color-accent);
