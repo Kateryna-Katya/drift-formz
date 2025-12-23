@@ -1,19 +1,36 @@
 <header class="header">
-  <div class="container">
+  <div class="container header__container">
+    <a href="/" class="logo"><span class="logo__dot"></span> Drift-Formz</a>
+
     <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
+      <ul class="nav__list">
+        <li><a href="#hero" class="nav__link">Главная</a></li>
+        <li><a href="#platform" class="nav__link">Платформа</a></li>
+        <li><a href="#benefits" class="nav__link">Преимущества</a></li>
+        <li><a href="#innovations" class="nav__link">Инновации</a></li>
+        <li><a href="#blog" class="nav__link">Блог</a></li>
       </ul>
     </nav>
+
+    <a href="#contact" class="btn-cta btn-cta--header">
+      <span>Связаться</span>
+      <i data-lucide="arrow-up-right"></i>
+    </a>
+
+    <button class="burger" id="burger-menu">
+      <span class="burger__line"></span>
+      <span class="burger__line"></span>
+    </button>
   </div>
 </header>
+
+<div class="mobile-menu" id="mobile-menu">
+  <nav class="mobile-nav">
+    <a href="#hero" class="mobile-nav__link">Главная</a>
+    <a href="#platform" class="mobile-nav__link">Платформа</a>
+    <a href="#benefits" class="mobile-nav__link">Преимущества</a>
+    <a href="#innovations" class="mobile-nav__link">Инновации</a>
+    <a href="#blog" class="mobile-nav__link">Блог</a>
+    <a href="#contact" class="mobile-nav__link highlight">Связаться</a>
+  </nav>
+</div>
